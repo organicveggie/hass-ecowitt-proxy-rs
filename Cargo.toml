@@ -1,0 +1,8 @@
+[package]
+name = "hass-ecowitt-proxy-rs"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/organicveggie/hass-ecowitt-proxy-rs"
+license = "GPL-3.0-or-later"
+
+[dependencies]
