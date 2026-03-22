@@ -27,7 +27,7 @@ jobs:
       with:
         # Point this to the directory containing Cargo.toml
         # Format: "path/to/workspace -> target/directory"
-        workspaces: "hass-ecowitt-proxy-rs -> hass-ecowitt-proxy-rs/target"
+        workspaces: "hass-ecowitt-proxy-rs -> target"
     - name: Build binaries in "${{ matrix.BUILD_TARGET }}" mode
       run: cargo build --profile ${{ matrix.BUILD_TARGET }}
     - name: Set Output
